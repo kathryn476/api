@@ -1,0 +1,30 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "simple node api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathryn476/api.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "kathryn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kathryn476/api/issues"
+  },
+  "homepage": "https://github.com/kathryn476/api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
